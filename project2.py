@@ -12,7 +12,7 @@ cities = ['new york city', 'chicago', 'washington']
 months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'none']
 days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'None']
 
-print("\n          _______LET'S FIND OUT SOME DATA FOR BIKE SHARE_______\n")
+print("\n          _______LET'S EXPLORE SOME DATA FOR BIKE SHARE_______\n")
 
 
 def data_filter():
