@@ -10,5 +10,7 @@ washington.csv
 new_york_city.csv
 ### Credits
 udacity.com
-###library
+### library
 PANDAS  
+### notes 
+washington data file has no gender and date of birth 
