@@ -5,7 +5,7 @@ city_data = {'chicago': 'chicago.csv',
              'washington': 'washington.csv'}
 
 '''
-Making Things Easier With Libraries
+Starting the project with making some lists
 '''
 
 cities = ['new york city', 'chicago', 'washington']
