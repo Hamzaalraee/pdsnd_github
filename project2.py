@@ -41,7 +41,7 @@ def data_filter():
             print(f'Please make sure your spelling are correct')
             continue
         else:
-            print('-' * 40)
+            print('*' * 40)
             break
 
 # ------------ Analysing Question ------------
@@ -60,7 +60,7 @@ def data_filter():
                 print('Please Try Again!')
                 continue
             else:
-                print('-' * 40)
+                print('*' * 40)
                 break
 
     if q == 'day':
@@ -77,7 +77,7 @@ def data_filter():
                 print('Please Try Again:')
                 continue
             else:
-                print('-' * 40)
+                print('*' * 40)
                 break
 
     if q == 'both':
@@ -93,7 +93,7 @@ def data_filter():
                 print('Please Try Again!')
                 continue
             else:
-                print('-' * 40)
+                print('*' * 40)
                 break
 
         while True:
@@ -108,7 +108,7 @@ def data_filter():
                 print('Please Try Again:')
                 continue
             else:
-                print('-' * 40)
+                print('*' * 40)
                 break
 
     if q == 'none':
@@ -183,7 +183,7 @@ def common_station(df):
 
 def trip(df):
     '''Displays total and AVG time travel'''
-    print('-' * 40)
+    print('*' * 40)
     print('Calculating Total and Avg Trip Duration...\n')
 
     total_travel = sum(df['Trip Duration'])
@@ -195,7 +195,7 @@ def trip(df):
 
 def user_info(df, city_a):
     """Displays statistics on bikeshare users."""
-    print('-' * 40)
+    print('*' * 40)
     print('Calculating Users Type...\n')
 
     print('Counts of users type: ')
@@ -205,7 +205,7 @@ def user_info(df, city_a):
 # -------- Displays Users Gender For Chicago and New York Data --------
 
     if city_a != 'washington':
-        print('-' * 40)
+        print('*' * 40)
         print('Calculating counts of gender... \n')
 
         print('Counts of gender: ')
@@ -216,7 +216,7 @@ def user_info(df, city_a):
 
         earliest = df['Birth Year'].min()
         earliest1 = int(earliest)
-        print('-' * 40)
+        print('*' * 40)
         print(f'The earliest birth year is: {earliest1}')
 
         most_recent = df['Birth Year'].max()
