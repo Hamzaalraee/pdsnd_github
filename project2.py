@@ -232,7 +232,7 @@ def raw(df):
     """
     Display contents of the DATA file to the display as the user wish.
     """
-
+    print('*' * 40)
     start = 0
     end = 5
 
